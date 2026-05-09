@@ -1,0 +1,42 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+:root{
+    /* --------- CORES --------- */
+
+    --color-primary: #9130F4;
+    --color-secondary: #121139;
+    --color-neutral-white: #F4F4F4;
+
+    /* --------- FONTES -------- */
+
+               /* SIZE */
+
+    --font-size-h1: 54px;
+    --font-size-h2: 45px;
+    --font-size-h3: 35px;
+    --font-size-h4: 30px;
+    --font-size-h5: 25px;
+    --font-size-body: 16px;
+    --font-size-button: 16px;
+    --font-size-capition: 14px;
+
+               /* WEIGHT*/
+
+    --font-weight-h1: 700;
+    --font-weight-h2: 700;
+    --font-weight-h3: 700;
+    --font-weight-h4: 500; 
+    --font-weight-h5: 500;
+    --font-weight-body: 400;
+    --font-weight-button: 700;
+    --font-weight-capition: 400;
+
+               /* FAMILY */
+
+    --font-family-primary: "Poppins", sans-serif;
+}
