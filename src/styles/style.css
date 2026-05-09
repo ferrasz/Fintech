@@ -33,3 +33,30 @@ header{
     font-family: var(--font-family-primary);
     font-weight: var(--font-weight-button);
 }
+
+/* -----------MAIN---------- */
+
+main{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 100px 118.46px;
+    background-color: var(--color-secondary);
+}
+
+.container-main{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    color: var(--color-neutral-white);
+}
+
+.container-main h1{
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-h1);
+    width: 497px;
+}
+
+.container-main h1 span{
+    color: var(--color-primary);
+}
