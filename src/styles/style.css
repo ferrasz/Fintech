@@ -81,6 +81,8 @@ main{
     width: 139px;
 }
 
+/* ----------- SECTION-INFORMATION ---------- */
+
 .section-information{
     display: flex;
     align-items: center;
@@ -110,4 +112,43 @@ main{
     color: var(--color-secondary);
     width: 603px;
     letter-spacing: 0.5px;
+}
+
+/* ----------- SECTION-GRAPHIC ----------- */
+
+.section-graphip{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+    gap: 24px;
+    background-color: var(--color-secondary);
+    border-bottom: 1px solid var(--color-neutral-white);
+}
+
+.title-graphic{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.section-graphip h2{
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-h2);
+    text-align: center;
+    color: var(--color-neutral-white);
+    letter-spacing: 0.5px;
+}
+
+.section-graphip span{
+    color: var(--color-primary);
+}
+
+.section-graphip p{
+    font-family: var(--font-family-primary);
+    color: var(--color-neutral-white);
+    text-align: center;
+    letter-spacing: 0.5px;
+    width: 730px;
 }
