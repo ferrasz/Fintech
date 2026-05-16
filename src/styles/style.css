@@ -152,3 +152,75 @@ main{
     letter-spacing: 0.5px;
     width: 730px;
 }
+
+/* ------------ FOOTER ------------ */
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 80px 0;
+    gap: 126px;
+    background-color: var(--color-secondary);
+}
+
+.container-footer{
+    display: flex;
+    gap: 50.67px;
+}
+
+.items-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.items-footer h2{
+    font-family: var(--font-family-primary);
+    color: var(--color-neutral-white);
+}
+
+.items-footer ul{
+    list-style: none;
+    font-family: var(--font-family-primary);
+}
+
+.items-footer ul li a{
+    text-decoration: none;
+    color: var(--color-neutral-white);
+}
+
+.insc-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.insc-footer h2{
+    font-family: var(--font-family-primary);
+    font-size: var(--font-weight-button);
+    color: var(--color-neutral-white);
+    width: 198px;
+}
+
+.insc-footer form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.5px solid #4d4d4d;
+    width: 385px;
+}
+
+.insc-footer input{
+    background-color: transparent;
+    padding: 20px 0;
+}
+
+.insc-footer input::placeholder{
+    color: var(--color-neutral-white);
+}
+
+button{
+    background-color: var(--color-primary);
+    padding: 15px;
+    border-radius: 40px;
+}
