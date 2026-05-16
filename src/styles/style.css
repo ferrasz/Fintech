@@ -80,3 +80,34 @@ main{
     padding: 10px 25px;
     width: 139px;
 }
+
+.section-information{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0;
+    gap: 100px;
+}
+
+.informations{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.informations h2{
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-h2);
+    width: 443px;
+}
+
+.informations span{
+    color: var(--color-primary);
+}
+
+.informations p{
+    font-family: var(--font-family-primary);
+    color: var(--color-secondary);
+    width: 603px;
+    letter-spacing: 0.5px;
+}
